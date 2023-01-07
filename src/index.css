@@ -1,13 +1,177 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "East Sea Dokdo",
+      sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://w0.peakpx.com/wallpaper/466/482/HD-wallpaper-assassin-s-creed-valhalla-game-landscape-aurora-borealis-northern-lights-mountains-games-thumbnail.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Bebas Neue", sans-serif;
+}
+h1 {
+  font-size: 28px;
+  color: red;
+}
+
+h2 {
+  font-size: 24px;
+  color: #702727;
+}
+
+h3 {
+  font-size: 20px;
+  color: #b94343;
+}
+
+
+@media screen and (min-width: 768px) {
+  h1 {
+      font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  body {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 31px;
+  }
+  h3 {
+    font-size: 27px;
+  }
+  body {
+    font-size: 26px;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.trailer {
+  width: 300px;
+  height: 147px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .trailer {
+      width: 480px;
+      height: 235px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .trailer {
+    width: 800px;
+    height: 393px;
+  }
+}
+
+.contactIcon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .contactIcon {
+      width: 30px;
+      height: 30px;
+    }
+}
+
+.filmVideo {
+  width: 230px;
+  height: 112px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .filmVideo {
+    width: 400px;
+    height: 195px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filmVideo {
+    width: 600px;
+    height: 292px;
+  }
+}
+
+.readIcon {
+  width: 30px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .readIcon {
+      width: 35px;
+      height: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .readIcon {
+      width: 40px;
+      height: 30px;
+    }
+}
+
