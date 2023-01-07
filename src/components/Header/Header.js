@@ -28,7 +28,7 @@ export const Header = () => {
                 </Link>
                 <HeaderMobileBtn type="button" onClick={toggleModal}>
                     <GiHoodedAssassin
-                        style={{ height: '40px', width: '40px' }}
+                        style={{ height: '40px', width: '40px', color: '#fff' }}
                     />
                 </HeaderMobileBtn>
                 <HeaderList>
