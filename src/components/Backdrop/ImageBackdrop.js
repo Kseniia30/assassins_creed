@@ -3,6 +3,7 @@ import { RxCross2 } from 'react-icons/rx';
 import { TbArrowBigLeftLine, TbArrowBigRightLine } from 'react-icons/tb';
 import { createPortal } from 'react-dom';
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 const modalRoot = document.querySelector('#modal-root');
 
@@ -68,4 +69,10 @@ export const ImageBackdrop = ({ onClose, image, title, setIndex, index }) => {
     );
 };
 
-
+ImageBackdrop.propTypes = {
+    onClose: PropTypes.func,
+    image: PropTypes.string,
+    title: PropTypes.string,
+    setIndex: PropTypes.func,
+    index: PropTypes.number,
+};

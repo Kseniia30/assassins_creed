@@ -5,6 +5,7 @@ import {
     GenresList,
     Poster,
 } from './FilmsModal.styled';
+import PropTypes from 'prop-types';
 const posterStartPath = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2';
 
 export const FilmsModal = ({
@@ -48,4 +49,14 @@ export const FilmsModal = ({
             </div>
         </FilmModalInfoBox>
     );
+};
+
+FilmsModal.propTypes = {
+    poster: PropTypes.string,
+    id: PropTypes.string,
+    title: PropTypes.string,
+    time: PropTypes.string,
+    release: PropTypes.string,
+    overview: PropTypes.string,
+    genres: PropTypes.array,
 };

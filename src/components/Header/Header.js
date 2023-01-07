@@ -48,7 +48,7 @@ export const Header = () => {
             </HeaderStyledBox>
             {showModal && (
                 <Modal onClose={toggleModal}>
-                    <HeaderMobileMenu />
+                    <HeaderMobileMenu onClose={toggleModal} />
                 </Modal>
             )}
         </Container>

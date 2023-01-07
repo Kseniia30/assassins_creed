@@ -6,6 +6,7 @@ import {
     BookModalImg,
     ReadLink,
 } from './BooksModal.styled';
+import PropTypes from 'prop-types';
 
 export const BooksModal = ({ img, title, author, sub, read }) => {
     return (
@@ -23,4 +24,12 @@ export const BooksModal = ({ img, title, author, sub, read }) => {
             </div>
         </BookModalBox>
     );
+};
+
+BooksModal.propTypes = {
+    img: PropTypes.string,
+    title: PropTypes.string,
+    author: PropTypes.string,
+    sub: PropTypes.string,
+    read: PropTypes.string,
 };
