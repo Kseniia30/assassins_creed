@@ -37,7 +37,7 @@ export const HeaderItem = styled.li`
 `;
 
 export const HeaderLink = styled(NavLink)`
-    font-family: 'Passions Conflict', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 700;
     color: #0f82a7;
 

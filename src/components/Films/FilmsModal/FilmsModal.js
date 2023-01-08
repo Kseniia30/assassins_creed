@@ -53,9 +53,9 @@ export const FilmsModal = ({
 
 FilmsModal.propTypes = {
     poster: PropTypes.string,
-    id: PropTypes.string,
+    id: PropTypes.number,
     title: PropTypes.string,
-    time: PropTypes.string,
+    time: PropTypes.number,
     release: PropTypes.string,
     overview: PropTypes.string,
     genres: PropTypes.array,

@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const FooterStyledBox = styled.div`
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     justify-content: center;
 `;
 export const UbisoftLogo = styled.img`

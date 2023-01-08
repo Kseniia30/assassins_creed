@@ -8,6 +8,7 @@ export const Container = styled.div`
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 
     @media screen and (min-width: 768px) {
         width: 768px;

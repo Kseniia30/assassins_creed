@@ -58,7 +58,9 @@ export const ImageBackdrop = ({ onClose, image, title, setIndex, index }) => {
                     style={{ color: '#FFF', marginRight: '20px' }}
                     onClick={clickLeft}
                 />
-                <img src={image} alt={title} className={css.largeImg} />
+                <div>
+                    <img src={image} alt={title} className={css.largeImg} />
+                </div>
                 <TbArrowBigRightLine
                     style={{ color: '#FFF', marginLeft: '20px' }}
                     onClick={clickRight}

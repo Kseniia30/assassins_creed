@@ -5,11 +5,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://w0.peakpx.com/wallpaper/466/482/HD-wallpaper-assassin-s-creed-valhalla-game-landscape-aurora-borealis-northern-lights-mountains-games-thumbnail.jpg');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://w0.peakpx.com/wallpaper/466/482/HD-wallpaper-assassin-s-creed-valhalla-game-landscape-aurora-borealis-northern-lights-mountains-games-thumbnail.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  margin-top: 130px;
 }
 
 code {

@@ -6,7 +6,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     transform: scale(1);
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 99;
 }
@@ -27,6 +27,16 @@
     background-size: cover;
     background-position: center;
     overflow-y: scroll;
+    animation: animateX50 2000ms 1;
+}
+@keyframes animateX50 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50% -50%);
+    }
 }
 .closeBtn {
     position: absolute;
@@ -45,6 +55,16 @@
     align-items: center;
     overflow: hidden;
     display: flex;
+    animation: animateX100 2000ms 1;
+}
+@keyframes animateX100 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50% -50%);
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -63,6 +83,7 @@
     }
     .largeImg {
         width: 620px;
+        border-radius: 10px;
     }
 }
 

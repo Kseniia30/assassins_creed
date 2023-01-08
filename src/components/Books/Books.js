@@ -1,6 +1,6 @@
 import { Modal } from 'components/Backdrop/Backdrop';
 import { bookList } from 'data/books';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
     BookAuthor,
     BookImg,
@@ -15,6 +15,15 @@ const { Container } = require('components/Common/styled/Common.styled');
 const Books = () => {
     const [showModal, setShowModal] = useState(false);
     const [book, setBook] = useState('');
+
+    useEffect(() => {
+        if (showModal) {
+            document.querySelector('body').style.overflow = 'hidden';
+        }
+        if (!showModal) {
+            document.querySelector('body').style.overflow = 'scroll';
+        }
+    }, [showModal]);
 
     const toggleModal = evt => {
         setShowModal(!showModal);

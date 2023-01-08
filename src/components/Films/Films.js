@@ -24,6 +24,15 @@ const Films = () => {
         });
     }, []);
 
+    useEffect(() => {
+        if (showModal) {
+            document.querySelector('body').style.overflow = 'hidden';
+        }
+        if (!showModal) {
+            document.querySelector('body').style.overflow = 'scroll';
+        }
+    }, [showModal]);
+
     if (!filmList) {
         return;
     }

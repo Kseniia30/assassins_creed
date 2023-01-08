@@ -30,6 +30,15 @@ const GameDetails = () => {
         setGame(details);
     }, [titleParam]);
 
+    useEffect(() => {
+        if (showModal || imageBackdrop) {
+            document.querySelector('body').style.overflow = 'hidden';
+        }
+        if (!showModal && !imageBackdrop) {
+            document.querySelector('body').style.overflow = 'scroll';
+        }
+    }, [showModal, imageBackdrop]);
+
     if (!game) {
         return;
     }
