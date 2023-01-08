@@ -1,4 +1,4 @@
-import { Container } from 'components/Common/styled/Common.styled';
+import { FixedContainer } from 'components/Common/styled/Common.styled';
 import { gameLogo } from 'data/images';
 import { Link } from 'react-router-dom';
 import {
@@ -21,7 +21,7 @@ export const Header = () => {
     };
 
     return (
-        <Container>
+        <FixedContainer>
             <HeaderStyledBox>
                 <Link to="/">
                     <Logo src={gameLogo} alt="logo" />
@@ -51,6 +51,6 @@ export const Header = () => {
                     <HeaderMobileMenu onClose={toggleModal} />
                 </Modal>
             )}
-        </Container>
+        </FixedContainer>
     );
 };

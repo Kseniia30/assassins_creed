@@ -1,4 +1,4 @@
-import { Container } from 'components/Common/styled/Common.styled';
+import { FixedContainer } from 'components/Common/styled/Common.styled';
 import { contacts } from 'data/contacts';
 import { UbisoftLofo } from 'data/images';
 import {
@@ -11,7 +11,7 @@ import {
 
 export const Footer = () => {
     return (
-        <Container>
+        <FixedContainer>
             <FooterStyledBox>
                 <UbisoftLogo src={UbisoftLofo} alt="Ubisoft" />
                 <p>:</p>
@@ -32,6 +32,6 @@ export const Footer = () => {
                     })}
                 </FooterList>
             </FooterStyledBox>
-        </Container>
+        </FixedContainer>
     );
 };
