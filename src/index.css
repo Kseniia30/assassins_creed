@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "East Sea Dokdo",
+  font-family: -apple-system, BlinkMacSystemFont, "Sofia Sans Extra Condensed",
       sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,6 +54,9 @@ h3 {
   color: #b94343;
 }
 
+p {
+  color: #050d65;
+}
 
 @media screen and (min-width: 768px) {
   h1 {
