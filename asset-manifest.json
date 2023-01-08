@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/assassins_creed/static/css/main.99ff66b5.css",
-    "main.js": "/assassins_creed/static/js/main.7a6b7ecf.js",
+    "main.js": "/assassins_creed/static/js/main.62307569.js",
     "static/js/868.bda41d31.chunk.js": "/assassins_creed/static/js/868.bda41d31.chunk.js",
     "static/js/104.66ce3e9d.chunk.js": "/assassins_creed/static/js/104.66ce3e9d.chunk.js",
     "static/js/239.0ee94317.chunk.js": "/assassins_creed/static/js/239.0ee94317.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/headerBgc.jpg": "/assassins_creed/static/media/headerBgc.ea00a44000092131c3b6.jpg",
     "index.html": "/assassins_creed/index.html",
     "main.99ff66b5.css.map": "/assassins_creed/static/css/main.99ff66b5.css.map",
-    "main.7a6b7ecf.js.map": "/assassins_creed/static/js/main.7a6b7ecf.js.map",
+    "main.62307569.js.map": "/assassins_creed/static/js/main.62307569.js.map",
     "868.bda41d31.chunk.js.map": "/assassins_creed/static/js/868.bda41d31.chunk.js.map",
     "104.66ce3e9d.chunk.js.map": "/assassins_creed/static/js/104.66ce3e9d.chunk.js.map",
     "239.0ee94317.chunk.js.map": "/assassins_creed/static/js/239.0ee94317.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.99ff66b5.css",
-    "static/js/main.7a6b7ecf.js"
+    "static/js/main.62307569.js"
   ]
 }
